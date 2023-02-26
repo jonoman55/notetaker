@@ -6,6 +6,9 @@ import { type RouterOutputs } from "~/utils/api";
 
 type Note = RouterOutputs["note"]["getAll"][0];
 
+/**
+ * Note Card
+ */
 export const NoteCard = ({
   note,
   onDelete,

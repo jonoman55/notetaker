@@ -20,5 +20,9 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  // required for populating the users Avatar as a Next Image Component
+  images: {
+    domains: ['avatars.githubusercontent.com'],
+  },
 };
 export default config;
