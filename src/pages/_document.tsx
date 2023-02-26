@@ -1,5 +1,8 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
+/**
+ * HTML Document
+ */
 export default function Document() {
   return (
     <Html data-theme="winter">
@@ -10,4 +13,4 @@ export default function Document() {
       </body>
     </Html>
   );
-};
+}
